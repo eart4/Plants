@@ -52,6 +52,7 @@ a{
 
 .active{
     color: #E06733;
+    font-weight: 700 !important;
 }
 
 .header__nav-item:hover{
