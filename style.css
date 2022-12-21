@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    
+    font-style: normal;
+    font-weight: 400;
+    transition: all .3s;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1252px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header{
+    background-color: #EDF2EC;
+}
+
+.header__top{
+    display: flex;
+    padding-bottom: 122px;
+}
+
+.header__logo{
+    position: relative;
+    top: 9px;
+}
+
+.header__nav{
+    display: flex;
+    margin-left: auto;
+    column-gap: 46px;
+}
+
+.header__nav-item{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    color: #000000;
+    
+}
+
+.header__nav-item:hover{
+    color: #E06733;
+}
+
+.header__bottom{
+    display: flex;
+    padding-bottom: 62px;
+}
+
+.header__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #717171;
+    padding-bottom: 42px;
+    
+}
+
+.header__title span{
+   color:  #499A18;
+   font-weight: 700;
+}
+.header__bottom-content{
+    margin-left: auto;
+    text-align: left;
+    max-width: 549px;
+}
+
+.header__text{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+    padding-bottom: 48px;
+}
+
+.header__btn{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Inter';
+    border: #E06733 solid 1px;
+    border-radius: 10px;
+    padding: 14px 27px;
+    
+}
+
+
+.header__btn:hover{
+    background-color: #E06733;
+    color: white;
+}
+
+
+
+.gardeners__row{
+    display: flex;
+}
+
+.gardeners__title{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    max-width: 463px;
+    padding-top: 161px;
+}
+
+.gardeners__title span{
+    color:  #E06733;
+}
+
+.gardeners__text{
+    max-width: 605px;
+    padding-top: 40px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+
+.gardeners__img{
+    position: relative;
+    margin-left: auto;
+    padding-top: 93px;
+}
+
+.service{
+    background-color: #EDF2EC;
+}
+
+.service__title{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    max-width: 306px;
+    padding-top: 40px;
+}
+
+.service__top{
+    display: flex;
+}
+
+.service__btns{
+    margin-right: 215px;
+    margin-left: auto;
+    display: flex;
+    column-gap: 38px;
+    height: 119px;
+    padding-top: 69px;
+    font-family: 'Inika';
+    color: #E06733;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 105px;
+}
+
+.service__btn{
+    padding: 12px 40px;
+    font-family: 'Inika';
+    color: #E06733;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    display: inline-block;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.service__btn:hover{
+    background-color: #E06733;
+    color: white;
+}
+
+.service__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 112px;
+}
+
+.card__img img{
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.card__img img:hover{
+    scale: 1.1;
+    transform: translateY(-15px);
+}
+
+.service__card{
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    margin-bottom: 55px;
+    overflow: hidden;
+}
+
+.card__title{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 10px 0;
+    text-align: center;
+    color: #E06733;
+}
+
+.card__text{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+    text-align: center;
+    padding-bottom: 36px;
+}
+
