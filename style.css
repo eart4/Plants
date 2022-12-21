@@ -194,6 +194,8 @@ a{
     border: 1px solid #E06733;
     border-radius: 5px;
     transition: .3s;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .service__btn:hover{
