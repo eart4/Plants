@@ -249,3 +249,32 @@ a{
     padding-bottom: 36px;
 }
 
+.prices__top{
+
+    display: flex;
+    column-gap: 635px;
+}
+
+.prices__first-title{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.prices__second-title{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+
+.prices__second-title span{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #499A18;
+}
+
