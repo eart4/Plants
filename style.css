@@ -250,7 +250,7 @@ a{
 }
 
 .prices__top{
-
+    padding-top: 38px;
     display: flex;
     column-gap: 635px;
 }
@@ -277,4 +277,31 @@ a{
     line-height: 48px;
     color: #499A18;
 }
+
+.prices__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricec__menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.prices__btn{
+    position: relative;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #EDF2EC;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+
 
