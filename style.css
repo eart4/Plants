@@ -337,5 +337,11 @@ a{
     left: 4.5px;
 }
 
+.pricec__menu{
+    border: 1px solid #E3E1D5;
+    padding: 34px 41px ;
+    border-radius: 20px;
+}
+
 
 
