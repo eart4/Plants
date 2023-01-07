@@ -344,4 +344,22 @@ a{
 }
 
 
+.prices__form{
+    display: flex;
+    flex-direction: column;
+    color: #E06733;
+}
 
+.prices__form-btn{
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #E06733;
+    padding: 12px 0;
+    border-radius: 5px;
+    font-family: 'Inika';
+    margin-top: 38px;
+}
+
+.prices__img{
+    margin-top: 39px;
+}
