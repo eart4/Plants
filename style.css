@@ -390,6 +390,7 @@ a{
 
 .footer__contacts{
     display: flex;
+    column-gap: 20px;
 }
 
 .footer__content{
@@ -411,6 +412,17 @@ a{
 
 .footer__link {
     padding: 40px 0;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 50px;
+}
+
+.footer__text{
+    padding: 40px 0;
+    display: flex;
+    column-gap: 20px;
     font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
