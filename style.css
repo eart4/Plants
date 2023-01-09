@@ -387,3 +387,33 @@ a{
     line-height: 52px;
     color: #499A18;
 }
+
+.footer__contacts{
+    display: flex;
+}
+
+.footer__content{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__contact{
+    width: 32px;
+    height: 32px;
+    padding: 51px 0;
+
+}
+
+.footer{
+    height: 130px;
+}
+
+.footer__link {
+    padding: 40px 0;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 50px;
+}
