@@ -317,6 +317,9 @@ a{
     position: relative;
     display: flex;
 }
+.prices{
+    margin-bottom: 115px;
+}
 
 
 
@@ -362,4 +365,25 @@ a{
 
 .prices__img{
     margin-top: 39px;
+}
+
+.contact{
+    background-color: #EDF2EC;;
+}
+.contact__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__city{
+    display: inline;
+}
+
+.contact__title{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
 }
